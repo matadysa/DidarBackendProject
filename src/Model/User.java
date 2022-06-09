@@ -1,31 +1,35 @@
 package Model;
 
-public class User {
-    private String id;
-    private int balance;
-    private Cart cart;
+import java.util.UUID;
 
-    public String getId() {
-        return id;
+public class User {
+    private final String id;
+    private int balance = 0;
+    private Cart cart = null;
+
+    public User() {
+        this.id = UUID.randomUUID().toString();
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public String getId() {
+
+        return id;
     }
 
     public int getBalance() {
         return balance;
     }
 
-    public void setBalance(int balance) {
-        this.balance = balance;
+    public void increaseBalance(int change) {
+        this.balance += change;
+    }
+
+    public void decreaseBalance(int change) {
+        this.balance -= change;
     }
 
     public Cart getCart() {
+        if (cart == null) cart = new Cart();
         return cart;
-    }
-
-    public void setCart(Cart cart) {
-        this.cart = cart;
     }
 }
