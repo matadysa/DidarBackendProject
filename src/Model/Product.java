@@ -1,10 +1,17 @@
 package Model;
 
+import java.util.UUID;
+
 public class Product {
+    private final String id;
     private String name;
     private int price;
     private String description;
     private int discount = 0;
+
+    public Product() {
+        this.id = UUID.randomUUID().toString();
+    }
 
     public String getName() {
         return name;
