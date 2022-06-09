@@ -1,5 +1,7 @@
 package Controller;
 
+import Model.User;
+
 public class AppController {
     private UserController userController;
     private ProductController productController;
@@ -9,8 +11,8 @@ public class AppController {
         this.productController = new ProductController();
     }
 
-    public void decision(){
-
-    }
+//    public void bought(String command) {
+//        userController.getUserBYId().
+//    }
 
 }

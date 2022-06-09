@@ -10,4 +10,9 @@ public class Cart {
         this.products = products;
         this.finalPrice = finalPrice;
     }
+
+    public void addProductToCart(Product product) {
+        products.add(product);
+    }
+
 }
