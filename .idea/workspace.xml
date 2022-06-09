@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42e643e0-f224-4c8e-8190-12ce03bb0d8a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/API/APIUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Cart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +42,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="DidarBackendProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DidarBackendProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Client" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

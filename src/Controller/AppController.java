@@ -14,5 +14,4 @@ public class AppController {
     public void bought(String userId, String productsTuple, double price) {
         userController.createCart(userId, productsTuple, price);
     }
-
 }
