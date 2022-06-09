@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e643e0-f224-4c8e-8190-12ce03bb0d8a" name="Changes" comment="methods added">
+    <list default="true" id="42e643e0-f224-4c8e-8190-12ce03bb0d8a" name="Changes" comment="static methods added to user">
+      <change beforePath="$PROJECT_DIR$/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654757205745</updated>
-      <workItem from="1654757209216" duration="3911000" />
+      <workItem from="1654757209216" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="project start">
       <created>1654757286555</created>
@@ -82,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654760294547</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="static methods added to user">
+      <created>1654761161016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654761161017</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
     <MESSAGE value="model construction" />
     <MESSAGE value="getters and setters added" />
     <MESSAGE value="methods added" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods added" />
+    <MESSAGE value="static methods added to user" />
+    <option name="LAST_COMMIT_MESSAGE" value="static methods added to user" />
   </component>
 </project>
