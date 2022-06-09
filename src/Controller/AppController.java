@@ -11,8 +11,8 @@ public class AppController {
         this.productController = new ProductController();
     }
 
-//    public void bought(String command) {
-//        userController.getUserBYId().
-//    }
+    public void bought(String userId, String productsTuple, double price) {
+        userController.createCart(userId, productsTuple, price);
+    }
 
 }
